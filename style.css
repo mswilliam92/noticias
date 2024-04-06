@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialized;
 }
 
 :root {
     --almost-white: #FFFDFA;
     --dark-blue: #00001A;
     --gunmetal: #5E607A;
-    --vemillion: #F15D51;
+    --vermillion: #F15D51;
     --yellow: #E9AA52;
-
 } 
-
 
 body{
     padding: 1.75rem 1rem;
@@ -20,5 +20,53 @@ body{
 }
 
 .header-moble {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
 }
+
+.header-mobile button{
+    border: 0;
+    background: 0;
+}
+
+.primeira-secao {
+    margin-bottom: 4rem;
+}
+
+.primeira-secao img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.primeira-secao h1 {
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+
+.primeira-secao p {
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    color: var(--gunmetal);
+    margin-bottom: 1.5rem;
+}
+
+.primeira-secao button {
+    padding: 0.75 2rem;
+    background-color: var(--vermillion);
+    border: 0;
+    text-transform: uppercase;
+    color: var(--almost-white);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.275rem;
+    line-height: 1.5rem;
+    
+
+}
+
+
+
